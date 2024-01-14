@@ -42,7 +42,7 @@ Some Tips you could use to enhance your Windows OS performance:
          - Recycle Bin (if you don’t need the deleted files)
          - Temporary files
          - Thumbnails
-         - (Note: don’t disable/delete anything if you're not sure what it does)
+         - __(Note: don’t disable/delete anything if you're not sure what it does)__
 
     9. Enable the virtual memory:
          - Open This PC/My Computer
@@ -57,4 +57,4 @@ Some Tips you could use to enhance your Windows OS performance:
     10. Remove any free third-party antivirus software as they consume a lot of resources constantly. 
 
 
-There are also **more beneficial** ways you can probably use to enhance Windows OS performance. These are only some tweaks that have a great impact on system performance!
+There are also more beneficial ways you can probably use to enhance Windows OS performance. These are only some tweaks that have a great impact on system performance!
