@@ -1,0 +1,60 @@
+Some Tips you could use to enhance your Windows OS performance:
+
+    1. Open the Task Manager and navigate to the Startup menu. Then, switch to the 
+       Status tab and disable any programs/utilities that you don't need to run in the background.
+
+    2. From the search bar, search for “adjust the appearance and performance of Windows” and 
+       select either “Adjust for best performance” or make your own customization.
+
+    3. Open the Windows Settings, navigate to the System menu, choose Storage, choose “Configure storage Sense or run it now”. 
+       Enable the Storage Sense and “Delete temporary files that my apps aren’t using”. 
+
+    4. Press the window+R buttons to open the Run utility. Type “%temp” and delete all temporary files. 
+       (some of them you can’t delete them, just skip them).
+
+    5. Disable Windows Telemetry. It just sends your data to Microsoft at the cost of your system resources. To do this:
+         - open the window+R buttons to open the Run utility.
+         - scroll down and choose “Connected User Experiences and Telemetry”.
+         - Right-click to open the properties.
+         - From the startup type, change it to Disabled. 
+
+    6. Open the CMD in admin mode and type “powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61” to enable 
+       the ultimate power performance. Then, open Control Panel, search for Power Options, and select “Ultimate Performance”.
+
+    7. Open the CMD in admin mode and type @echo off
+       powershell -Command "iwr -useb https://christitus.com/win | iex"  This tool has a lot of futures you may go through. 
+       For the performance issue, navigate to “Tweaks” menu. Select either a laptop or desktop (depending on what you’re using). 
+       You will find a lot of essential and advanced options: 
+         - Delete Temporary files 
+         - Run disk Clean up
+         - Disable Notification Tray/Celender
+         - Disable Telemetry 
+         - Disable Wifi-Sense
+         - Set services to manual
+         - After you select the required options, press “Run Tweaks” (You may select extra options if you know what they are and what they do!).
+         - (Note: don’t disable/delete anything if you're not sure what it does)
+
+    8. Open This PC/My Computer, right-click on partition C or the main partition for your OS. Select Disk Clean up, select:
+         - Windows Update Cleanup 
+         - Temporary Internet files
+         - Delivery Optimization files
+         - Device driver packages 
+         - Recycle Bin (if you don’t need the deleted files)
+         - Temporary files
+         - Thumbnails
+         - (Note: don’t disable/delete anything if you're not sure what it does)
+
+    9. Enable the virtual memory:
+         - Open This PC/My Computer
+         - right-click on the space menu
+         - select advanced system settings
+         - in the performance section, press settings, then select advanced tab. 
+         - In the Virtual memory section, select Change
+         - Disable “automatically manage paging file size”
+         - In the custom size button, set the initial size to (1.5 * your physical memory size). 
+           For the maximum size (2 * your physical memory size).
+
+    10. Remove any free third-party antivirus software as they consume a lot of resources constantly. 
+
+
+There is also a lot of more you can probably do and these are only some tweaks that have actually a great impact on system performance!
