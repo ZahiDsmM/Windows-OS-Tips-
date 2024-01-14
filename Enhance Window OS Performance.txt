@@ -57,4 +57,4 @@ Some Tips you could use to enhance your Windows OS performance:
     10. Remove any free third-party antivirus software as they consume a lot of resources constantly. 
 
 
-There is also a lot of more you can probably do and these are only some tweaks that have actually a great impact on system performance!
+There are also **more beneficial** ways you can probably use to enhance Windows OS performance. These are only some tweaks that have a great impact on system performance!
